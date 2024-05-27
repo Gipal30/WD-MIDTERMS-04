@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    background: #1e1e2d;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.header button {
+    padding: 0.5rem 1.5rem;
+    background: #ff7f50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.service {
+    background: #292942;
+    padding: 1rem;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.strategy, .video-selection, .creative process, .solutions {
+    padding: 2rem 1rem;
+    text-allign: center;
+}
+
+.strategy h2, .solution h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.strategy button, .solution button {
+    padding: 0.5rem 1.5rem;
+    background: #ff7f50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.video-placeholder {
+    width: 80%;
+    height: 300px;
+    background: #ddd;
+    margin: 2rem auto;
+}
+
+.creative-process .process-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.creative-process .card {
+    background: #f0f0f0;
+    padding: 1rem;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.footer {
+    background: #1e1e2d;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.footer h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer button {
+    padding: 0.5rem 1.5rem;
+    background; #ff7f50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.footer info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.footer-links, .footer-categories{
+    width: 40%;
+}
+
+.footer-links ul, .footer-categories ul{ 
+    list-style: none;
+}
+
+.footer-links a, .footer-categories a{
+    color: #ff7f50;
+    text-decoration: none;
+}
